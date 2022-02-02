@@ -12,7 +12,7 @@ public class Mensajes {
 		
 	
 		
-		System.out.println(msg3+" "+msg1+msg4+" "+msg2);
+		System.out.println(msg3+" "+msg2+" "+msg1+msg4);
 	
 		
 
