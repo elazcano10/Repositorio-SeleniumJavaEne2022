@@ -5,14 +5,12 @@ import javax.swing.JOptionPane;
 public class Barking {
 
 	//Definición de atributos
-		boolean barking = true;
+
+	    boolean barking = true;
 		int hourOfDay = 0;
 	
 	//Definición de Métodos
-		
-		
-		
-		
+			
 		public void leerDatos(){
 		
 			hourOfDay = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la hora actual en formato de 24 hrs: "));
@@ -26,7 +24,7 @@ public class Barking {
 		
 		if (hourOfDay >=0 && hourOfDay<=23)
 		{
-			if(hourOfDay<8 || hourOfDay>22)
+			if(barking==true && (hourOfDay<8 || hourOfDay>22))
 			{	barking=true;
 				System.out.println("El perro está ladrando, debemos despertarnos...");
 				System.out.println("Son las "+hourOfDay +"hrs");
