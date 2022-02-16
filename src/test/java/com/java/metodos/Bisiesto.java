@@ -12,7 +12,7 @@ public class Bisiesto {
 		System.out.println("Año ingresado: "+dato);
 		bisiesto=isLeapYear(dato);
 		System.out.println("¿El año es bisiesto:? "+bisiesto);
-	//	anio=dato;
+
 
 		
 		
