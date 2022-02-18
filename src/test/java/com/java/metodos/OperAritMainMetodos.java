@@ -1,4 +1,4 @@
-package com.java;
+package com.java.metodos;
 
 public class OperAritMainMetodos {
 

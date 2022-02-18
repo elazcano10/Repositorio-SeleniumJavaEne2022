@@ -13,18 +13,23 @@ public static void main(String[] args) {
 		double resultado;
 		double resultado2;
 		dato=leerRadius(radius);
-		System.out.println("El radio ingresado es: "+dato+" u");
+	//	System.out.println("El radio ingresado es: "+dato+" u");
+		
 		
 		if(dato>0) {
 			resultado=area(dato);
-	    	System.out.println("El área del circulo es: "+resultado +"U^2");
+	    	//System.out.println("El área del circulo es: "+resultado +" U^2");
+	    	JOptionPane.showMessageDialog(null, "El área del circulo es: "+resultado +" U^2");
 		}
 		else
-			System.out.println("El radio es negativo, el área es inválida...");
+			//System.out.println("El radio es negativo, el área es inválida...");
+		    JOptionPane.showMessageDialog(null,"El radio es negativo, el área es inválida...");
 		
 
 		resultado2 = area(largo, ancho);
-		System.out.println("El área del rectangulo es: "+resultado2+" U^2" );
+	//	JOptionPane.showMessageDialog(null, "El radio ingresado es: "+dato+" u");
+	//	System.out.println("El área del rectangulo es: "+resultado2+" U^2" );
+		JOptionPane.showMessageDialog(null, "El área del rectangulo es: "+resultado2+" U^2");
 
 	}
 	
@@ -56,13 +61,17 @@ public static void main(String[] args) {
 		
 		if(largo<0||ancho<0) 
 		{
-			System.out.println("El área del rectángulo es inválida...");
+			//System.out.println("El área del rectángulo es inválida...");
+			JOptionPane.showMessageDialog(null,"El radio es negativo, el área es inválida...");
+			
 			return -1; 
 			
 		}
 		 else { 
-			 	System.out.println("El largo del rectangulo es: "+largo+ " u");
-			 	System.out.println("El ancho del rectangulo es: "+ancho+ " u");
+			 	//System.out.println("El largo del rectangulo es: "+largo+ " u");
+			 	//System.out.println("El ancho del rectangulo es: "+ancho+ " u");
+			 	JOptionPane.showMessageDialog(null,"El largo del rectangulo es: "+largo+ " u");
+			 	JOptionPane.showMessageDialog(null,"El ancho del rectangulo es: "+ancho+ " u");
 			 
 			 	return (largo * ancho);
 		 }
