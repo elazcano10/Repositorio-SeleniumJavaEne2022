@@ -15,16 +15,19 @@ public class Main {
 		Perro perro3;
 		
 		// Perro 1
-		Perro perro1 = new Perro("Chihuahua", "Cafe", "Chico", "Mero Macho");
-		perro1.setRaza("Pomeriano");
+		Perro perro1 = new Perro("Chihuahua", "Cafe", "Chico", "Spaiky");
+	//	perro1.setRaza("Pomeriano");
+		perro1.setNumeroPatas(4);
 		System.out.println("Mi perro es de raza "+perro1.getRaza());
 		System.out.println("Mi perro es de color "+perro1.getColor());
+		System.out.println("Mi perro se llama "+perro1.getNombre());
+		System.out.println("Mi perro tiene "+perro1.getNumeroPatas()+" patas");
 		
 		// Perro 2
-		Perro perro2 = new Perro("San Bernado", "Blanco", "Grande","Cool", 3);
-		perro2.setNumeroPatas(5);
-		System.out.println("Mi perro tiene "+perro2.getNumeroPatas() + " Patas");
-		
+//		Perro perro2 = new Perro("San Bernado", "Blanco", "Grande","Cool", 3);
+//		perro2.setNumeroPatas(5);
+//		System.out.println("Mi perro tiene "+perro2.getNumeroPatas() + " Patas");
+//		
 		
 		
 		

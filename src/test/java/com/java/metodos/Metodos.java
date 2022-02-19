@@ -54,8 +54,45 @@ public class Metodos {
 		
 //		int suma = suma(1,2);
 //		System.out.println(suma);
+		
+		int mynumber = Integer.parseInt(JOptionPane.showInputDialog("Ingrese otro entero: "));
+		// int mynumber = 130;
+	        if(isEven(mynumber) == true)
+	            System.out.print("Even Number");
+	        else
+	            System.out.print("Odd Number");
 
+	        
+//	        int tipoBomba = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el tipo de bomba (1 u otro numero): "));
+//	        try {
+//				boolean bomba=dimeSiMotorEsParaAgua(tipoBomba);
+//			} catch (Exception e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//	        
 	}
+	
+	
+	  public static boolean isEven(int mynumber)
+	    {
+	        return (mynumber % 2 == 0);
+	    }
+
+	  
+//	  public boolean dimeSiMotorEsParaAgua(int tipoBomba)
+//	    { 
+//	        boolean motorEsParaAgua = false;
+//	        if(tipoBomba == 1)
+//	        {
+//	            motorEsParaAgua = true;
+//	        }
+//	        else
+//	        {
+//	            motorEsParaAgua = false;
+//	        }
+//	        return motorEsParaAgua;
+//	    }
 	
 	
 	public static boolean areEqualByThreeDecimalPlaces(double x2, double y)
